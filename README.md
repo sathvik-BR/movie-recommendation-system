@@ -23,7 +23,7 @@ pip install pandas scikit-learn streamlit
 streamlit run app.py
 
 ## 🌐 Live Demo
-https://movie-recommendation-system.streamlit.app
+https://YOUR-STREAMLIT-LINK.streamlit.app
 
 ## 🔗 GitHub Repository
 https://github.com/sathvik-BR/movie-recommendation-system
