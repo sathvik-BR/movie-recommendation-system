@@ -65,7 +65,8 @@ selected_movie = st.selectbox("Select a movie", movie_list)
 
 if st.button("Recommend"):
 
-    names, posters = recommend(selected_movie)
+    with st.spinner("Finding similar movies..."):
+        names, posters = recommend(selected_movie)
 
     col1, col2, col3, col4, col5 = st.columns(5)
 
