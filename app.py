@@ -56,7 +56,8 @@ def recommend(movie):
 
 
 # Streamlit UI
-st.title("🎬 Movie Recommendation System")
+st.title("🎬 AI Movie Recommendation System")
+st.write("Get movie suggestions based on content similarity using Machine Learning.")
 
 movie_list = df['title'].values
 
